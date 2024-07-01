@@ -1,39 +1,51 @@
+/* Cascadia Code Fonts */
 @font-face {
-    font-family: 'JetBrains Mono';
-    src: local('JetBrains Mono'),
-    url('./JetBrainsMono-Regular.woff2') format('woff2');
+    font-family: "Cascadia Code";
+    src: local('Cascadia Code'),
+    url("./CascadiaCode/CascadiaCode-Regular.woff2") format("woff2");
     font-display: swap;
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
-    font-family: 'JetBrains Mono';
-    src: local('JetBrains Mono'),
-    url('./JetBrainsMono-Italic.woff2') format('woff2');
+    font-family: "Cascadia Code";
+    src: local('Cascadia Code'),
+    url("./CascadiaCode/CascadiaCode-Italic.woff2") format("woff2");
     font-display: swap;
     font-weight: normal;
     font-style: italic;
 }
 @font-face {
-    font-family: 'JetBrains Mono';
-    src: local('JetBrains Mono'),
-    url('./JetBrainsMono-Bold.woff2') format('woff2');
+    font-family: "Cascadia Code";
+    src: local('Cascadia Code'),
+    url("./CascadiaCode/CascadiaCode-Bold.woff2") format("woff2");
     font-display: swap;
     font-weight: bold;
     font-style: normal;
 }
 @font-face {
-    font-family: 'JetBrains Mono';
-    src: local('JetBrains Mono'),
-    url('./JetBrainsMono-BoldItalic.woff2') format('woff2');
+    font-family: "Cascadia Code";
+    src: url("./CascadiaCode/CascadiaCode-BoldItalic.woff2") format("woff2");
     font-display: swap;
     font-weight: bold;
     font-style: italic;
 }
 
+/* HarmonyOS Sans SC */
+@font-face {
+    font-family: "HarmonyOS Sans SC";
+    src: url('./HarmonyOS_Sans/HarmonyOS_Sans_SC_Regular.woff')format("woff");
+    font-weight: normal;
+}
+@font-face {
+    font-family: "HarmonyOS Sans SC";
+    src: url('./HarmonyOS_Sans/HarmonyOS_Sans_SC_Bold.woff')format("woff");
+    font-weight: bold;
+}
+
 /*快速自定义配置*/
 :root {
-    --monospace: "Iosevka Curly", "JetBrains Mono", "Fira Code", "Cascadia Code", Menlo, "Ubuntu Mono", Consolas, HYZhengYuan; /*代码字体*/
+    --monospace: "Cascadia Code", "HarmonyOS Sans SC"; /*代码字体*/
     --text-font: var(--monospace); /*正文字体*/
     --title-font: var(--monospace); /*标题字体*/
     --latex-font: var(--monospace); /*LaTeX字体(不含英语)*/
