@@ -43,9 +43,25 @@
     font-weight: bold;
 }
 
+/* LxgwWenKai Fonts */
+@font-face {
+    font-family: "霞鹜文楷";
+    src: url('./LxgwWenKai/LXGWWenKaiMono-Regular.ttf')format("tff");
+    font-weight: normal;
+}
+@font-face {
+    font-family: "霞鹜文楷";
+    src: url('./LxgwWenKai/LXGWWenKaiMono-Bold.ttf')format("tff");
+    font-weight: bold;
+}
+@font-face {
+    font-family: "霞鹜文楷";
+    src: url('./LxgwWenKai/LXGWWenKaiMono-Light.ttf')format("tff");
+    font-weight: normal;
+}
 /*快速自定义配置*/
 :root {
-    --monospace: "Cascadia Code", "HarmonyOS Sans SC"; /*代码字体*/
+    --monospace: "Cascadia Code", "霞鹜文楷"; /*代码字体*/
     --text-font: var(--monospace); /*正文字体*/
     --title-font: var(--monospace); /*标题字体*/
     --latex-font: var(--monospace); /*LaTeX字体(不含英语)*/
